@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/xp.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+</head>
+<body>
+     <div class="content row">
+            <div class="tap">
+                <ul class="nav">
+                    <li><a href="#"><i class="fas fa-arrow-circle-left" id="part-left"></i></a></li>
+                    <li><a href="#" id="part1">Tập 2</a></li>
+                    <li><a href="#" id="part2">Tập 3</a></li>
+                    <li><a href="#"><i class="fas fa-arrow-circle-right" id="part-right"></i></a></li>
+                    <li><a href="#">Tặng Quà <i class="fas fa-carrot" style="color: orange; font-size: 20px;"></i></a>
+                        <ul class="subnav" id="tex">
+                            <li class="gift">1 <i class="fas fa-carrot" style="color: orange; font-size: 16px;"></i></li>
+                            <li class="gift">10 <i class="fas fa-carrot" style="color: orange; font-size: 16px;"></i></li>
+                            <li class="gift">100 <i class="fas fa-carrot" style="color: orange; font-size: 16px;"></i></li>
+                            <li class="gift">1000 <i class="fas fa-carrot" style="color: orange; font-size: 16px;"></i></li>
+                        </ul>
+                        <i class="fas fa-chevron-circle-left" style="color: white;margin-right: 15px;font-size: 24px;display: none;float:right; line-height: 52px;" id="thu"></i>
+                    </li>
+                </ul>
+                <div class="video">
+                    <div style="position: relative;">
+                        <video autoplay controls  id="myVideo" style="position: absolute;width: 98%;border: 3px solid black; border-radius: 5px;">
+                            <source src="video/3.mp4" type="video/mp4" id="slide">
+                        </video>
+                    </div>
+                </div>
+            </div>
+            <div class="bl">
+                <p>Bình Luận<i class="fas fa-chevron-circle-right" style="font-size: 24px; margin-left: 170px; line-height: 52px;"></i></p>
+                <div class="f_bl">
+                    <input type="text" id="fname" name="fname" placeholder="Bình luận"><br>
+                    <button class="btn2">Gửi</button>
+                </div>
+                <div class="f1_bl">
+                    
+                    <span style="color: white;">Thời gian lưu mới nhất(s):</span>
+                    <p style="color: white;" class="addtime">0</p>
+                    <button style="font-size: 12px; color: white;background-color: red;" id="luu">Lưu</button><br>
+                    
+                </div>
+            </div>
+    </div>
+    <script src="adjs/xp.js"></script>
+</body>
+</html>

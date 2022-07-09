@@ -1,0 +1,161 @@
+*{
+    box-sizing: border-box;
+    margin: 0 0;
+    padding: 0 0;
+}
+.content{
+    width: 100%;
+    height: 657px;
+}
+
+.row::after {
+    content: "";
+    clear: both;
+    display: block;
+}
+.tap{
+    width: 80%;
+    background-color: black;
+    float: left ;
+    height: 657px;
+}
+.bl{
+    width: 20%;
+    background-color: black;
+    float: left;
+}
+.tap>ul{
+    display: block;
+    width: 100%;
+    text-align: center;
+    height: 48px;
+}
+.tap>ul>li{
+    height: 100%;
+    width: 20%;
+    display: block;
+    line-height: 46px;
+    float: left;
+    position: relative;
+}
+.tap>ul>li>a{
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    color: white;
+    text-decoration: none;
+    color: aqua;
+}
+.tap>ul>li>a>i{
+    font-size: 28px;
+    line-height: 52px;
+    color: aliceblue;
+
+}
+.tap>ul>li:hover .subnav{
+    display: block;
+}
+.subnav {
+    position: absolute;
+    top: 46px;
+    left: 0px;
+    display: none;
+    color: yellow;
+    z-index: 10;
+    background-color: transparent;
+    width: 100%;
+}
+.subnav li{
+    width: 100%;
+    display: block;
+    line-height: 46px;
+    text-align: center;
+}
+.subnav li:hover {
+    color: red;
+    font-family: cursive;
+    cursor: pointer;
+}
+.textbox{
+    display: none !important;
+}
+
+.video{
+    padding-top: 5px;
+    width: 95%;
+    height: 600px;
+    color: #ccc;
+    margin: auto;
+    padding: auto;
+}
+#myVideo{
+    height: 595px;
+    width: 100%;
+}
+
+/* bl */
+.f_bl{
+    width: 100%;
+    border-bottom: 1px currentColor #fff;
+}
+.bl>p{
+    color: white;
+    text-align: center;
+    height: 48px;
+    line-height: 48px;
+}
+
+/* bl */
+.bl input{
+    outline: none;
+    width: 100% ;
+    font-size: 15px;
+    margin: auto;
+    color: white;
+  }
+.bl input#fname{
+    width: 100%;
+    color: white;
+    background-color: black;
+    outline: none;
+    padding: 10px 10px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+
+
+  }
+  .btn2{
+    width:80px;
+    color: red;
+    background-color: transparent;
+    border: 1px solid #fff;
+    border-radius: 5px;
+    font-size: 12px;
+    padding: 8px 10px;
+    float: right;
+    margin-right: 20px;
+    margin-top: 20px;
+  }
+.f1_bl{
+    width: 100%;
+    height: 490px;
+    margin-top: 80px;
+}
+.f1_bl #luu{
+    border: none;
+    width: 80px;
+    height: 30px;
+    margin-top: 30px;
+}
+.f1_bl span{
+    float: left;
+    width: 70%;
+    margin-top: 30px;
+}
+.f1_bl p{
+    float: right;
+    width: 30%;
+    margin-top: 30px;
+    padding-left: 10px;
+}

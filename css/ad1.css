@@ -1,0 +1,155 @@
+
+.modal {
+    display: none;
+    position: fixed; 
+    z-index: 1; 
+    padding-top: 100px; 
+    right: 0px;
+    top: 15px;
+    width: 80%;
+    height: 100%; 
+    overflow: hidden;
+    background-color: transparent;
+    /* background-color: rgb(0,0,0); 
+    background-color: rgba(0,0,0,0.4);  */
+}
+ 
+/* Modal Content */
+.modal-content {
+    background-color: rgb(85, 83, 83);
+    padding: 20px;
+    margin-right: 10px;
+    border: 1px solid #888;
+    width: 96%;
+    float: right;
+}
+ 
+/* The Close Button */
+.close,.close1,.close2,.close3,.close4,.close5,.close6{
+    color: #aaaaaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+ 
+.close:hover,.close:focus,
+.close1:hover,.close1 :focus,
+.close2:hover,.close2 :focus,
+.close3:hover,.close3 :focus,
+.close4:hover,.close4 :focus,
+.close5:hover,.close5 :focus,
+.close6:hover,.close6 :focus
+{
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
+.modal-main{
+    background-color: black;
+    margin-top: 20px;
+    margin-right: 10px;
+    border: none;
+    width: 96%;
+    float: right;
+}
+.modal-main table{
+    width: 100%;
+    border-left: none;
+    border-right: none;
+    text-align: center;
+}
+.modal-main th{
+    width: 20%;
+    height: 46px;
+    line-height: 46px;
+    color: white;
+    border: 1px solid red;
+    
+}
+.modal-main td{
+    width: 20%;
+    height: 190px;
+    color: white;
+    border: 1px solid red;
+    
+}
+.modal-main td img{
+    width: 80%;
+    height: 90%;
+    margin: auto;
+}
+.modal-main td i{
+   color: white;
+}
+.modal-main td>i:hover{
+    color: red;
+}
+
+table, th, td{
+    border:1px solid black;
+}
+.modal-content .btn{
+    float: right;
+    margin-right: 40px;
+    margin-top: 30px;
+    font-size: 15px;
+    padding: 6px;
+    background-color: red;
+    color: white;
+    border: none;
+    width: 50px;
+}
+.modal-content .btn:hover{
+    color: black;
+}
+.loc{
+    text-align: center;
+    margin-top: 10px;
+    border: 1px solid #888;
+    width: 35%;
+    margin: auto;
+    border-radius: 20px;
+}
+.loc input{
+    outline: none;
+    font-size: 16px;
+    margin: 5px 10px;
+    width: 70%;
+}
+.loc i{
+    margin-left: 10px;
+    font-size: 16px;
+    color: blue;
+    padding: 3px 3px;
+}
+.loc>i:hover{
+    color: red;
+}
+/* xóa */
+.modal-main .deleteItem{
+    height: 220px;
+    position: relative;
+}
+.modal-main .deleteItem .btn1 {
+    position: absolute;
+    right: 5px;
+    bottom: 4px;
+    font-size: 16px;
+    background: red;
+    padding: 5px;
+    border: 1px solid #ccc;
+}
+.modal-main .deleteItem .btn1:hover{
+    color: white;
+    background-color: blue;
+}
+/* Danh Sách */
+.modal-main .ListSX{
+    height: 50px;
+}
+.modal-main .ListSX a:hover{
+    color: red;
+}
+
+
+  
